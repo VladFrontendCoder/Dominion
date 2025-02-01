@@ -216,14 +216,14 @@ h2 {
 /* Project Section */
 
 .project {
-    padding: 50px 0 99px;
+    padding: 50px 0 73px;
 }
 
 .project-list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-column-gap: 32px;
-    grid-row-gap: 55px;
+    grid-row-gap: 31px;
     margin-top: 35px;
 }
 
