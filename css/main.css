@@ -214,14 +214,14 @@ h2 {
 /* Project Section */
 
 .project {
-    padding: 50px 0 73px;
+    padding: 50px 0 78px;
 }
 
 .project-list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-column-gap: 32px;
-    grid-row-gap: 28px;
+    grid-row-gap: 31px;
     margin-top: 35px;
 }
 
@@ -234,7 +234,7 @@ h2 {
     color: #012E85;
     font-size: 24px;
     font-weight: 500;
-    margin: 24px 0 5px;
+    margin: 19px 0 5px;
 }
 
 .projectCard p {
@@ -258,7 +258,7 @@ h2 {
 .product {
     background: #012E85;
     border-radius: 15px;
-    padding: 81px 0 86px;
+    padding: 81px 0 78px;
 }
 
 .product h2 {
@@ -267,7 +267,7 @@ h2 {
 
 .product__wrap,
 .services__wrap {
-    margin-top: 26px;
+    margin-top: 28px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -278,18 +278,13 @@ h2 {
     width: 49%;
 }
 
-.product__list a,
-.services__list a {
-    color: #Fff;
-    font-size: 24px;
-    font-weight: 500;
-    font-family: 'Scandia', sans-serif;
-}
-
 .product__list li,
 .services__list li {
     border-bottom: 1px solid #fff;
-    padding: 20px 0 17px;
+    padding: 16px 0 13px;
+    color: #Fff;
+    font-size: 24px;
+    font-weight: 500;
 }
 
 .product__list li:nth-child(1) {
@@ -300,7 +295,7 @@ h2 {
 /* Setvices section */
 
 .services {
-    padding: 82px 0;
+    padding: 82px 0 75px;
 }
 
 .services__list a {
@@ -313,6 +308,10 @@ h2 {
 
 .services__list li:nth-child(1) {
     border-top: 1px solid #DEDBD7;
+}
+
+.services__list li {
+    color: #012E85;
 }
 
 
@@ -331,7 +330,7 @@ h2 {
 }
 
 .eventGallery {
-    margin-top: 20px;
+    margin-top: 31px;
 }
 
 .eventGallery__list {
@@ -339,7 +338,7 @@ h2 {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-column-gap: 30px;
     grid-row-gap: 30px;
-    margin-top: 45px;
+    margin-top: 41px;
 }
 
 .eventGallery__list a {
@@ -446,7 +445,7 @@ h2 {
 
 .footer__block {
     background: #02276E;
-    padding: 10px 0;
+    padding: 9px 0;
 }
 
 .footer__block .container {

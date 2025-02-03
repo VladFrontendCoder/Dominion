@@ -18,8 +18,8 @@
     .about__wrap {
         gap: 30px;
     }
-    .product__list a,
-    .services__list a {
+    .product__list li,
+    .services__list li {
         font-size: 20px;
     }
     .eventGallery__list a {
@@ -190,15 +190,11 @@
     .product {
         padding: 49px 0 49px;
     }
-    .product__list a,
-    .services__list a {
-        font-size: 24px;
-        line-height: 31px;
-        letter-spacing: 1.8px;
-    }
     .product__list li,
     .services__list li {
         padding: 19px 20px 17px 0;
+        font-size: 24px;
+        line-height: 31px;
     }
     .product__wrap,
     .services__wrap {
