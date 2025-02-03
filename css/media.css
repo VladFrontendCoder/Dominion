@@ -108,11 +108,11 @@
         height: 220px;
     }
     .news__list a h4 {
-        font-size: 16px;
+        font-size: 24px;
     }
     .news__list a span {
-        margin: 10px 0;
-        font-size: 14px;
+        margin: 10px 0 2px;
+        font-size: 16px;
     }
     .footer__block a {
         margin-left: 0;
@@ -133,7 +133,7 @@
         grid-template-columns: 1fr;
     }
     .news__list {
-        grid-row-gap: 27px;
+        grid-row-gap: 15px;
         margin-top: 22px;
     }
     .news__list a img {
@@ -146,7 +146,7 @@
         display: none;
     }
     .offer {
-        padding: 149px 0 104px;
+        padding: 149px 0 77px;
         background: url(../img/offer_bg_mob.jpg) no-repeat center top / cover;
     }
     .offer__info h1 {
@@ -162,7 +162,8 @@
     }
     h2 {
         font-size: 32px;
-        margin-bottom: 18px;
+        margin-bottom: 20px;
+        line-height: 40px;
     }
     .about__img {
         margin-bottom: 26px;
@@ -171,14 +172,14 @@
         margin-bottom: 22px;
     }
     .project {
-        padding: 180px 0 72px;
+        padding: 61px 0 72px;
     }
     .project h2 {
-        margin-bottom: 10px;
+        margin-bottom: 16px;
     }
     .project-list {
         margin-top: 0;
-        grid-row-gap: 34px;
+        grid-row-gap: 30px;
     }
     .projectCard img {
         height: 384px;
@@ -187,23 +188,24 @@
         margin: 12px 0 0;
     }
     .product {
-        padding: 49px 0 75px;
+        padding: 49px 0 49px;
     }
     .product__list a,
     .services__list a {
         font-size: 24px;
-        line-height: 30px;
+        line-height: 31px;
+        letter-spacing: 1.8px;
     }
     .product__list li,
     .services__list li {
-        padding: 19px 20px 10px 0;
+        padding: 19px 20px 17px 0;
     }
     .product__wrap,
     .services__wrap {
         margin-top: 27px;
     }
     .services {
-        padding: 77px 0 82px;
+        padding: 77px 0 64px;
     }
     .eventGallery {
         margin-top: 23px;
@@ -214,7 +216,7 @@
     }
     .eventGallery__list {
         margin-top: 0;
-        grid-row-gap: 24px;
+        grid-row-gap: 21px;
     }
     .eventGallery__list a {
         height: 404px;
@@ -223,13 +225,10 @@
         margin-top: 45px;
     }
     .news h3 {
-        max-width: 200px;
-    }
-    .news__list a h4 {
-        font-size: 21px;
+        max-width: 217px;
     }
     .event {
-        padding: 0 0 76px;
+        padding: 0 0 67px;
     }
     .footer {
         padding: 17px 0 0;
@@ -244,10 +243,13 @@
         width: 100px;
     }
     .footer__wrap {
-        padding-bottom: 61px;
+        padding-bottom: 65px;
     }
     .footer__block .container p,
     .footer__block a {
         font-size: 12px;
+    }
+    .offer__info p {
+        max-width: 353px;
     }
 }
